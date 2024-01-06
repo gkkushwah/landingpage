@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #ab8f97;
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+}
+
+#part2 {
+    height: 100%;
+    width: 68%;
+    background-color: rgb(0, 247, 255);
+    background-image: url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #ab8f9740;
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: green; */
+}
+
+#text-div{
+    /* height: 300px; */
+    width: 400px;
+    position: absolute;
+    /* background-color: white; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+#text-div>h1{
+    font-size: 83px;
+    font-family: monument;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 78%;
+    color: white;
+
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    /* background-color: rgba(197, 151, 151, 0.6); */
+    background-image: url(https://images.unsplash.com/photo-1545912453-3d32e20f72bf?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+
+#small-img-overlay{
+    height: 400px;
+    width: 300px;
+    background-color: #ab8f973a;
+
+}
+
+#vertical-text{
+    position: absolute;
+    right: -30%;
+    top: 46%;
+    /* transform-origin: 0%; */
+    /* width: 100%; */
+    /* background-color: red; */
+    text-transform: uppercase;
+}
+
+#vertical-text h1{
+    font-size: 52px;
+    font-weight: 900;
+    margin-right: 160px;
+    color: transparent;
+    transform: rotate(90deg);
+    font-family: monument;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(216, 231, 231);
+}
+
+#navbar{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    left: 8%;
+    top: 15%;
+    /* background-color: red; */
+}
+
+#navbar img{
+    height: 50px;
+}
+#navbar h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: gilroy;
+}
